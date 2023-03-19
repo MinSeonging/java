@@ -87,7 +87,7 @@ Tv클래스로부터 만들어진 객체: Tv클래스의 인스턴스
 |높이|볼륨 높이고 낮추기|
 |색상|채널 변경하기|
 
-'''java
+```java
 class Tv {
  String color; //색깔
  boolean power; //전원상태
@@ -96,6 +96,6 @@ class Tv {
  void power()         { power = !power; }
  void channelUp()     { channel++; }
  void channelDown()   { channel--' }
-'''
+```
 
 
